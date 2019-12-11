@@ -1,0 +1,14 @@
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		Robotnik tppckar = new Tppckar("Matej", 10);
+		Robotnik brigadnik = new Brigadnik("Lukas", 4);
+		
+		System.out.println("Mzda pre tppckara: " + tppckar.vypocitajMzdu(30));
+		System.out.println("Ocakavana hodnota: 400");
+		System.out.println("Mzda pre brigadnika: " + brigadnik.vypocitajMzdu(30));
+		System.out.println("Ocakavana hodnota: 100");
+	}
+}
